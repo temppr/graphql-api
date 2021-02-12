@@ -1,7 +1,7 @@
 {
   "name": "graphql_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fully scripted GraphQL API boilerplate based on Hasura + AWS using the Serverless Framework.",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "apollo-server-lambda": "^2.20.0",
+    "aws-sdk": "^2.840.0",
+    "graphql": "^15.5.0",
     "hasura-cli": "^1.1.1",
     "serverless": "^1.67.3",
     "serverless-dotenv-plugin": "^2.3.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyRod/graphql-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ReyRod/graphql-api/issues"
+  },
+  "homepage": "https://github.com/ReyRod/graphql-api#readme"
 }
